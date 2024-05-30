@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_SERVER = '192.168.64.3'
-        IMAGE_NAME = 'nyamkaann'
+        IMAGE_NAME = 'docker/welcome-to-docker'
         GIT_REPO = 'https://github.com/Nyamkaann/node-app.git'
     }
 
